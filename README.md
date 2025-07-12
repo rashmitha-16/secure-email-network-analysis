@@ -38,10 +38,34 @@ Step 1: Import the Public Key
 Step 2: Verify the Key Was Imported
 <img width="1002" height="252" alt="image" src="https://github.com/user-attachments/assets/ac16c3c7-55ef-4339-b3ef-9ec507acd812" />
 
+✉️ Composing & Encrypting the Message
+📝 Step 1: Create a plain text file with a message ( which is secure) - example
+<img width="610" height="162" alt="image" src="https://github.com/user-attachments/assets/c23bfe83-d8fc-467a-afca-e9e6cd44edfb" />
+🔐 Step 2: Encrypt the Message 
+gpg --encrypt --recipient username@protonmail.com filename.txt
+<img width="1126" height="275" alt="image" src="https://github.com/user-attachments/assets/b12401a7-36c0-46d0-bc86-98fd04984eca" />
+<img width="847" height="307" alt="image" src="https://github.com/user-attachments/assets/84fc832f-5f61-413d-bb2a-a241586e1b29" />
 
+📧 Sending the Encrypted Message via Disposable Email
+To test the delivery and decryption of the encrypted message without revealing your actual email identity, you can use a disposable email service.
+🔗 Tools Used
+https://temp-mail.org/ (Used in this project)
+Alternatively: https://www.guerrillamail.com/
 
+✉️ Steps to Send the Email
+cat secret-message.txt.asc, Copy the entire contents (including -----BEGIN PGP MESSAGE----- to -----END PGP MESSAGE-----).
+Go to the compose message section of Temp-Mail - Add Recipient Email, Subject, Body: Paste the contents of secret-message.txt.asc
+<img width="800" height="507" alt="image" src="https://github.com/user-attachments/assets/4a630351-9f25-4eae-a4be-c4a025e7f06d" />
 
+✅ Verifying End-to-End Encryption
+Once the message is received in the ProtonMail inbox:
+- A green padlock icon next to the sender indicates the message was encrypted end-to-end.
+- The subject and body content will match exactly with the encrypted content sent.
+- The message will be automatically decrypted and displayed (since the private key resides in the recipient’s ProtonMail account).
+<img width="1127" height="515" alt="image" src="https://github.com/user-attachments/assets/f1264e40-5977-42c4-80dd-5873ed96e890" />
+<img width="1201" height="516" alt="image" src="https://github.com/user-attachments/assets/b8196d21-6e87-4ef3-a9b0-0b81a2e3550e" />
 
+🔒 This verifies that the message was successfully encrypted, securely delivered, and decrypted using OpenPGP.
 
 
 
