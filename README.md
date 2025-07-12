@@ -1,4 +1,4 @@
-# secure-email-network-analysis
+# email-encryption-network-analysis
 This project demonstrates how to implement secure email communication using **PGP encryption via ProtonMail**, and analyze network traffic to detect anomalies using **Wireshark**.
 
 ## 🔐 Part 1: Secure Email communication using PGP & Protonamil
@@ -92,8 +92,16 @@ You can modify this script to send the encrypted .asc content instead of plain t
 <img width="1027" height="560" alt="image" src="https://github.com/user-attachments/assets/fb7751ff-ccca-47ac-b6b9-8dd35514d6e6" />
 
 
+🧠 Part 3: Network Traffic Analysis with Wireshark
+✅ Analyzing Suspicious IPs
+✅ Protocol Inspection - Inspected TCP,HTTP, DNS, and SMTP traffic for suspicious payloads, malformed headers, or unexpected destinations.
+✅ Used display filters
 
-
+<img width="1028" height="623" alt="image" src="https://github.com/user-attachments/assets/7a4433bd-3441-4a72-9e11-a5f038847235" />
+<img width="1070" height="603" alt="image" src="https://github.com/user-attachments/assets/3e1148aa-4645-4c70-899e-cc93459abba5" />
+<img width="797" height="717" alt="image" src="https://github.com/user-attachments/assets/956adc38-d98d-4847-8766-02c515169d0b" />
+<img width="727" height="529" alt="image" src="https://github.com/user-attachments/assets/c79a0c3e-8822-4a6b-b4b2-852e67dbe61d" />
+<img width="775" height="365" alt="image" src="https://github.com/user-attachments/assets/e7c4477c-5769-4456-80ce-875b58066177" />
 
 
 
