@@ -1,7 +1,7 @@
 # secure-email-network-analysis
 This project demonstrates how to implement secure email communication using **PGP encryption via ProtonMail**, and analyze network traffic to detect anomalies using **Wireshark**.
 
-## 🔐 Part 1: Secure Email with PGP
+## 🔐 Part 1: Secure Email communication using PGP & Protonamil
 
 
 ### 🔧 Tools/Libraries Used
@@ -66,6 +66,34 @@ Once the message is received in the ProtonMail inbox:
 <img width="1201" height="516" alt="image" src="https://github.com/user-attachments/assets/b8196d21-6e87-4ef3-a9b0-0b81a2e3550e" />
 
 🔒 This verifies that the message was successfully encrypted, securely delivered, and decrypted using OpenPGP.
+
+
+## 🔐 Part 2: Python Script To Send Emails Using SMTP 
+
+Apart from using disposable email, you can also auto-send encrypted messages securely using any account (used gmail in this project) using Python script.
+🧪 Sample Script: test.py
+import smtplib
+
+email = input("SENDER email:      ")
+receiver = input("RECEIVER email:    ")
+
+subject = input("Subject:   ")
+message = input("Message:   ")
+
+text = f"Subject: {subject}\n\n{message}"
+
+server = smtplib.SMTP("smtp.gmail.com", 587)
+server.starttls()
+# Follow with login and sending logic...
+
+💡 This basic script takes sender and receiver email, a subject, and message body, then prepares it for sending via Gmail SMTP (smtp.gmail.com).
+You can modify this script to send the encrypted .asc content instead of plain text.
+
+<img width="1027" height="560" alt="image" src="https://github.com/user-attachments/assets/fb7751ff-ccca-47ac-b6b9-8dd35514d6e6" />
+
+
+
+
 
 
 
