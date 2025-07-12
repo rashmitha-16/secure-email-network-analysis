@@ -1,0 +1,35 @@
+🧾 Capture Overview
+Capture Source: Local virtual machine / test network
+Tool Used: Wireshark
+Capture Duration: ~5 mins
+Traffic Type: Mixed – HTTP, DNS, ICMP, and SMTP
+
+
+
+🔍 Observed Anomalies / Indicators
+Suspicious IP Access:Unrecognized public IPs attempting connections
+
+Port Scanning Behavior
+
+Detected using filter:
+tcp.flags.syn == 1 and tcp.flags.ack == 0
+
+
+📊 Filters Used
+
+ip.addr 
+
+🧠 4. Insights Gained
+Identified basic signs of scanning and intrusion attempts
+Learned how to correlate IP, protocol, and payload data
+Understood usage of display filters for specific threats
+
+📸 5. Screenshots (if any)
+
+Example:
+
+
+
+
+✅  Conclusion
+This basic hands-on exercise with Wireshark helped visualize network anomalies, making it easier to understand real-world cyber threats and how to detect them.
