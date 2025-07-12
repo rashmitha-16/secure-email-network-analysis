@@ -32,6 +32,11 @@ b. https://temp-mail.org/
 <img width="1816" height="813" alt="image" src="https://github.com/user-attachments/assets/6a3fcbde-b0fd-40fb-ac74-367a4ee6e773" />
 <img width="788" height="267" alt="image" src="https://github.com/user-attachments/assets/2778c55a-61b9-4903-bcd8-74fe128f9ab5" />
 
+🔁 Importing the Recipient’s Public Key
+Step 1: Import the Public Key
+<img width="1212" height="207" alt="image" src="https://github.com/user-attachments/assets/beb090db-0b54-46db-b2de-dcd72f317284" />
+Step 2: Verify the Key Was Imported
+<img width="1002" height="252" alt="image" src="https://github.com/user-attachments/assets/ac16c3c7-55ef-4339-b3ef-9ec507acd812" />
 
 
 
