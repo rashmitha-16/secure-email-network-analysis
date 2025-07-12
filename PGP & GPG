@@ -1,0 +1,20 @@
+PGP (Pretty Good Privacy) - PGP is a commercial proprietary product
+- Pretty Good Privacy uses several encryption technologies, like hashing, data compression, and public/private PGP keys to protect an organization’s critical information. 
+
+OPENPGP:  PGP is the backbone of Open PGP, which is an open source standard that allows PGP to be used in software that is typically free to the public. 
+
+GPG (GNU Privacy Guard) -  open-source and free
+The GPG Project provides the tools and libraries to allows users to interface with a GUI or command line to integrate encryption with emails and operating systems like Linux. 
+
+Both are encryption software tools that utilize the OpenPGP standard for secure communication and data encryption.They offer similar functionality.
+
+#Sending Mails using PGP Encryption
+
+PGP uses a combination of symmetric key encryption (i.e., a single-use session key encrypts and decrypts the message) and public key encryption (i.e., the keys 
+unique to the recipient encrypt and decrypt the session key).
+
+PGP combines the efficiency of symmetric encryption and the convenience of public key encryption. 
+
+It is the most widely used encryption standard when it comes to end- to-end information encryption. It is used to verify whether the sent message is genuine or not.
+
+
