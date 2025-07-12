@@ -74,8 +74,7 @@ Apart from using disposable email, you can also auto-send encrypted messages sec
 🧪 Sample Script: test.py
 <img width="1027" height="560" alt="image" src="https://github.com/user-attachments/assets/fb7751ff-ccca-47ac-b6b9-8dd35514d6e6" />
 
-
-🧠 Part 3: Network Traffic Analysis with Wireshark
+## 🧠 Part 3: Network Traffic Analysis with Wireshark
 ✅ Analyzing Suspicious IPs
 ✅ Protocol Inspection - Inspected TCP,HTTP, DNS, and SMTP traffic for suspicious payloads, malformed headers, or unexpected destinations.
 ✅ Used display filters
