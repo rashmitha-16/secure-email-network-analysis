@@ -72,23 +72,6 @@ Once the message is received in the ProtonMail inbox:
 
 Apart from using disposable email, you can also auto-send encrypted messages securely using any account (used gmail in this project) using Python script.
 🧪 Sample Script: test.py
-import smtplib
-
-email = input("SENDER email:      ")
-receiver = input("RECEIVER email:    ")
-
-subject = input("Subject:   ")
-message = input("Message:   ")
-
-text = f"Subject: {subject}\n\n{message}"
-
-server = smtplib.SMTP("smtp.gmail.com", 587)
-server.starttls()
-# Follow with login and sending logic...
-
-💡 This basic script takes sender and receiver email, a subject, and message body, then prepares it for sending via Gmail SMTP (smtp.gmail.com).
-You can modify this script to send the encrypted .asc content instead of plain text.
-
 <img width="1027" height="560" alt="image" src="https://github.com/user-attachments/assets/fb7751ff-ccca-47ac-b6b9-8dd35514d6e6" />
 
 
